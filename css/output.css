@@ -61,6 +61,8 @@ h1 {
   padding: 10px;
   border-radius: 3px;
   font-size: 20px;
+  color: black;
+  box-shadow: #26394d 0px 20px 30px -10px;
 }
 
 footer {
@@ -73,6 +75,12 @@ footer {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.container {
+  border: 3px solid black;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .job p {
@@ -99,6 +107,13 @@ footer {
   padding: 10px;
   border-radius: 3px;
   font-size: 20px;
+  color: black;
+  box-shadow: #26394d 0px 20px 30px -10px;
+}
+
+.button-job a:hover {
+  background-color: black;
+  color: #4de64d;
 }
 
 /*# sourceMappingURL=output.css.map */

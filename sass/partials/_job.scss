@@ -1,13 +1,13 @@
 @use 'variables';
 @use 'mixins';
 
-// body {
-//     height: 100vh;
-// }
 
 .job {
     @include mixins.flex(center, column);
-    // height: 91vh;
+}
+
+.container {
+    @include mixins.container;
 }
 
 .job p {
@@ -15,10 +15,14 @@
 }
 
 .button-job {
-    @include mixins.flex(center,column);
+    @include mixins.flex(center, column);
     margin: 20px 0 50vh 0;
 }
 
 .button-job a {
     @include mixins.button;
+}
+
+.button-job a:hover {
+    @include mixins.btnHover;
 }

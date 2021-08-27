@@ -18,8 +18,7 @@ header {
 }
 
 h1 {
-    text-align: center;
-    font-family: variables.$poppins;
+    @include mixins.h1;
 }
 
 .images {
