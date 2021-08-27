@@ -1,0 +1,14 @@
+@use 'variables';
+@use 'mixins';
+
+body {
+    height: 100vh;
+}
+
+.job {
+    @include mixins.flex(center, column);
+}
+
+.job p {
+    @include mixins.stdText;
+}
