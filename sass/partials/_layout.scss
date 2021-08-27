@@ -48,6 +48,10 @@ h1 {
     @include mixins.button;
 }
 
+.button a:hover {
+    @include mixins.btnHover;
+}
+
 footer {
     text-align: center;
     color: variables.$white-text;

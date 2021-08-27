@@ -21,7 +21,8 @@
 
 @mixin button {
     width: 175px;
-    background-color: rgb(77, 230, 77);
+    background-color: rgba(45, 201, 45, 0.767);
+    border: 2px solid black;
     text-decoration: none;
     text-align: center;
     font-family: variables.$poppins;
@@ -45,5 +46,6 @@
 
 @mixin btnHover {
     background-color: black;
-    color: rgb(77, 230, 77);
+    color: rgba(45, 201, 45, 0.767);
+    border: 2px solid rgba(45, 201, 45, 0.767);
 }
