@@ -8,6 +8,7 @@
 
 body {
     background: variables.$gradient;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -38,8 +39,19 @@ h1 {
     @include mixins.stdText;
 }
 
+.button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.button a {
+    @include mixins.button;
+}
+
 footer {
     text-align: center;
     color: variables.$white-text;
     margin-bottom: 10px;
 }
+

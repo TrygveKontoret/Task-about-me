@@ -19,10 +19,14 @@
     font-family: variables.$poppins;
 }
 
-// @mixin jobText {
-//     width: 350px;
-//     padding: 5px;
-//     font-size: 20px;
-//     color: variables.$text-color;
-//     font-family: variables.$poppins;
-// }
+
+@mixin button {
+    width: 175px;
+    background-color: rgb(77, 230, 77);
+    text-decoration: none;
+    text-align: center;
+    font-family: variables.$poppins;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 20px;
+}

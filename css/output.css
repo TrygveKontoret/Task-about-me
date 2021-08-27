@@ -6,6 +6,7 @@
 
 body {
   background: linear-gradient(#4ecdc4, #556270);
+  background-repeat: no-repeat;
 }
 
 header {
@@ -45,14 +46,27 @@ h1 {
   font-family: "Poppins", sans-serif;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.button a {
+  width: 175px;
+  background-color: #4de64d;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 20px;
+}
+
 footer {
   text-align: center;
   color: #fff;
   margin-bottom: 10px;
-}
-
-body {
-  height: 100vh;
 }
 
 .job {
@@ -67,6 +81,24 @@ body {
   font-size: 20px;
   color: #f2f2f2;
   font-family: "Poppins", sans-serif;
+}
+
+.button-job {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0 50vh 0;
+}
+
+.button-job a {
+  width: 175px;
+  background-color: #4de64d;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=output.css.map */

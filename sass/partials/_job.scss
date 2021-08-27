@@ -1,14 +1,24 @@
 @use 'variables';
 @use 'mixins';
 
-body {
-    height: 100vh;
-}
+// body {
+//     height: 100vh;
+// }
 
 .job {
     @include mixins.flex(center, column);
+    // height: 91vh;
 }
 
 .job p {
     @include mixins.stdText;
+}
+
+.button-job {
+    @include mixins.flex(center,column);
+    margin: 20px 0 50vh 0;
+}
+
+.button-job a {
+    @include mixins.button;
 }
