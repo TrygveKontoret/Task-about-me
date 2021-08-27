@@ -22,7 +22,7 @@ h1 {
 }
 
 .images {
-    @include mixins.flex;
+    @include mixins.flex(center, column);
     margin: 20px;
 }
 
@@ -31,7 +31,7 @@ h1 {
 }
 
 .about-me {
-    @include mixins.flex;
+    @include mixins.flex(center, column);
 }
 
 .about-me p {
