@@ -1,5 +1,20 @@
+@use 'variables';
+
 @mixin flex {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+@mixin images ($width: 350px) {
+    width: $width;
+    border-radius: 10px;
+}
+
+@mixin stdText {
+    width: 350px;
+    padding: 5px;
+    font-size: 20px;
+    color: variables.$text-color;
+    font-family: variables.$poppins;
 }

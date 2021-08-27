@@ -22,26 +22,20 @@ h1 {
 }
 
 .images {
-    display: flex;
-    justify-content: center;
+    @include mixins.flex;
     margin: 20px;
 }
 
 .images img {
-    width: 350px;
-    border-radius: 10px;
+    @include mixins.images();
 }
 
 .about-me {
-    @include mixins.flex
+    @include mixins.flex;
 }
 
 .about-me p {
-    width: 350px;
-    padding: 5px;
-    font-size: 20px;
-    color: variables.$text-color;
-    font-family: variables.$poppins;
+    @include mixins.stdText;
 }
 
 footer {
