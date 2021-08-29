@@ -70,6 +70,7 @@ h1 {
   background-color: black;
   color: rgba(45, 201, 45, 0.767);
   border: 2px solid rgba(45, 201, 45, 0.767);
+  transition: 0.5s;
 }
 
 footer {
@@ -123,6 +124,7 @@ footer {
   background-color: black;
   color: rgba(45, 201, 45, 0.767);
   border: 2px solid rgba(45, 201, 45, 0.767);
+  transition: 0.5s;
 }
 
 /*# sourceMappingURL=output.css.map */

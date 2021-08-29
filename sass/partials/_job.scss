@@ -1,7 +1,6 @@
 @use 'variables';
 @use 'mixins';
 
-
 .job {
     @include mixins.flex(center, column);
 }
